@@ -1,0 +1,27 @@
+{
+  "name": "npr-news-scraper",
+  "version": "1.0.0",
+  "description": "App to scrape the NPR website for news articles",
+  "main": "main.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmccarthy1/NPR-News-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmccarthy1/NPR-News-Scraper/issues"
+  },
+  "homepage": "https://github.com/kmccarthy1/NPR-News-Scraper#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.9"
+  }
+}
